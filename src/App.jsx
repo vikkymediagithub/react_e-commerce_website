@@ -1,9 +1,11 @@
-
+import DarkMode from "./components/Navbar/DarkMode"
+import Navbar from "./components/Navbar/Navbar"
 
 const App = () => {
   return (
     <div>
-      App
+      <Navbar />
+      <DarkMode/>
     </div>
   )
 }
